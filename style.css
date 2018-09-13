@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.S, .A, .M, .I, .R {
+    font-family: Lato;
+    font-size: 300px;
+    font-weight:500;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    align-items: stretch;
+}
+
+.S {
+    color: rgb(72, 133, 237);
+}
+
+.A {
+    color: rgb(219, 50, 54);
+}
+
+.M {
+    color: rgb(244, 194, 13);
+}
+
+.I {
+    color: rgb(72, 133, 237);
+}
+
+.R {
+    color:rgb(60, 186, 84);
+}
+
+.col {
+    background-color: lightblue;
+    margin: 2px;
+}
+
+.btn-primary {
+    display:flex;
+    flex-wrap:wrap;
+    margin: auto;
+    transition: all 1s;
+    font-size:20px;
+    justify-content:center;
+}
+
+.btn-primary:hover {
+    transform:scale(1.2);
+}
